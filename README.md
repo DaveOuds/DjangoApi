@@ -1,7 +1,7 @@
-#General:
+# General:
 This README.md file explains how to set up a Django api using restframework and djongo to use a MongoDB database.
 
-#Setting up Django Restframework 
+# Setting up Django Restframework 
 1.  'virtualenv X'
 2.  'source X/bin/activate'
 3.  'pip install django'
@@ -26,7 +26,7 @@ s3.save()<br/>
 ```
 INSTALLED_APPS += ['rest_framework']
 ```
-#Djongo:
+# Djongo:
 1. 'pip install djongo'
 2. Edit settings.py :
 ```
@@ -37,7 +37,7 @@ INSTALLED_APPS += ['rest_framework']
     }
 	}
 ```
-#Create an endpoint
+# Create an endpoint
 1.  'cd project/project'
 2.  'python manage.py startapp ENDPOINT'
 3.  'cd ENDPOINT'
@@ -136,5 +136,5 @@ urlpatterns = [
 ```
 INSTALLED_APPS += ['soda']
 ```
-Helpful links:
+## Helpful links:
 https://nesdis.github.io/djongo/different-ways-to-integrate-django-with-mongodb/
